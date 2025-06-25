@@ -2,7 +2,7 @@ title: Docs
 description: Desc
 
 url: "https://yab-org.github.io/docs"
-baseurl: "/docs/"
+baseurl: "/"
 permalink: pretty
 
 theme: just-the-docs
