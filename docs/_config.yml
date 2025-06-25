@@ -1,0 +1,31 @@
+title: Docs
+description: Desc
+
+url: "url"
+baseurl: "/"
+permalink: pretty
+
+theme: just-the-docs
+color_scheme: dark
+heading_anchors: true
+
+callouts:
+  deprecated:
+    title: Deprecated
+    color: red
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      has_toc: false
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-sitemap
+
+relative_links:
+  enabled: true
+  collections: true
