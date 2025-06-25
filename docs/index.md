@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-# WebX Specification
+# YAB Documentation
 
-The modern WebX Specification.
+YAB is a modern browser for the [WebX project](https://github.com/webx-plus/WebX-Specification) 
 
-You can look at browsers [here](browsers/index.md) and about browser development [here](browsers/dev.md).
+Here you can find how to develop for YAB and in the future about YABKit our Development friendly YAB spinoff.
 
-## Specifications
+## Index
 
-- [HTML++ spec](htmlpp/index.md)
-- [CSS 3.25 spec](css-3.25/index.md)
-- [Lua spec](lua/index.md)
+- 
+- 
+- 
