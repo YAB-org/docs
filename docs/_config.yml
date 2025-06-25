@@ -9,11 +9,6 @@ theme: just-the-docs
 color_scheme: dark
 heading_anchors: true
 
-callouts:
-  deprecated:
-    title: Deprecated
-    color: red
-
 defaults:
   - scope:
       path: ""
