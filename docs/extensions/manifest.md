@@ -3,7 +3,7 @@ title: Manifest v1
 parent: Extensions
 ---
 # Manifest v1
-The manifest is a very simple json file that YAB uses to properly display your extensions and update it as soon as there is an update available. The typical structure would be:
+The manifest is a very simple json file that YAB uses to properly display your extension and update it as soon as there is an update available. The typical structure would be:
 ```json
 {
   "name": "Extension Name",
