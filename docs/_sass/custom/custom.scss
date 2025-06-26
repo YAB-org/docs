@@ -61,13 +61,15 @@ div.highlighter-rouge > button, div.listingblock > div.content > button, figure.
 .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
   background: #131316;
 }
-
+.nav-list-link {
+    margin-bottom: 5px;
+}
 .nav-list {
     padding: 0;
     margin-top: 0;
     margin-bottom: 0;
     list-style: none;
-    padding-right: 0.25rem;
+    padding-right: 6px;
 }
 
 ul > li:first-child {
