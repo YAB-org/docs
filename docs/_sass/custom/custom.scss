@@ -4,6 +4,10 @@ code, pre, .highlighter-rouge {
   font-family: 'JetBrains Mono', monospace;
 }
 
+.highlighter-rouge {
+  border-radius: 0.5rem;
+}
+
 .side-bar {
   width: 16.5rem;
   max-width: unset;
@@ -35,4 +39,30 @@ td {
   #top {
     margin-left: 0px;
   }
+}
+
+.side-bar {
+  background: #1c1b1f;
+}
+
+a {
+  color: #499bdc;
+}
+
+div.highlighter-rouge > button, div.listingblock > div.content > button, figure.highlight > button {
+    border-radius: 1rem;
+}
+
+.nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link {
+    color: #959396;
+    background: #1F1F24;
+    border-radius: 0.5rem;
+}
+
+.nav-list {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding-right: 0.25rem;
 }
