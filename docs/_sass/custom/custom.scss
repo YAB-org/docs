@@ -79,7 +79,7 @@ code.language-plaintext.highlighter-rouge {
     padding-right: 7px;
 }
 
-.language-js.highlighter-rouge {
+.highlighter-rouge:has(.highlight) {
     border: 1px solid #444752;
     overflow: hidden;
     border-radius: 10px;
@@ -88,8 +88,10 @@ code.language-plaintext.highlighter-rouge {
 div#search-results {
     border-radius: 10px;
     margin-top: 20px;
+    background: #1b1b1e;
 }
 
 input#search-input {
     border-radius: 10px;
+    background: #1b1b1e;
 }
