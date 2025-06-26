@@ -69,7 +69,9 @@ div.highlighter-rouge > button, div.listingblock > div.content > button, figure.
     margin-top: 0;
     margin-bottom: 0;
     list-style: none;
-    padding-right: 6px;
+    margin-right: 6px;
+    margin-left: 6px;
+    border-radius: 0.5rem;
 }
 
 code.language-plaintext.highlighter-rouge {
@@ -80,5 +82,14 @@ code.language-plaintext.highlighter-rouge {
 .language-js.highlighter-rouge {
     border: 1px solid #444752;
     overflow: hidden;
+    border-radius: 10px;
+}
+
+div#search-results {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+input#search-input {
     border-radius: 10px;
 }
