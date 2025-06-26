@@ -14,7 +14,7 @@ The manifest is a very simple json file that YAB uses to properly display your e
   "scripts": ["script.js"]
 }
 ```
-As of now it consist of four simple elements: 
+As of now it consist of six simple elements: 
 - `name` The name of your Extension and what is displayed to the user
 - `id` A unique id to differentiate from other extensions
 - `description` The description of your Extension
