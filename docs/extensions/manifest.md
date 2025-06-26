@@ -21,7 +21,7 @@ As of now it consist of a couple simple elements:
 - `author` The author of the Extension. You can write anything you want here
 - `id` A unique id to differentiate from other extensions
 - `description` The description of your Extension
-- `icon` An icon that 128 x 128
+- `icon` An icon that is 128 x 128 px
 - `version` The version of the Extension
 - `entry` The main html file
 - `scripts` An array of script files
