@@ -1,6 +1,6 @@
 ---
 title: Extensions
-nav_order: 1
+nav_order: 2
 ---
 # Extensions
 Extensions are one of the ways users can customize their experience on YAB. An extension (typically coded in JS) provides certain features to enhance the users experience or add some kind of tool not already present.
