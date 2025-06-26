@@ -10,6 +10,7 @@ The manifest is a very simple json file that YAB uses to properly display your e
   "author": "John Doe",
   "id": "extension.unique.id",
   "description": "An Extension like no other.",
+  "icon": "/assets/icon.png",
   "version": "1.0.0",
   "entry": "index.html",
   "scripts": ["script.js"]
@@ -20,6 +21,7 @@ As of now it consist of a couple simple elements:
 - `author` The author of the Extension. You can write anything you want here
 - `id` A unique id to differentiate from other extensions
 - `description` The description of your Extension
+- `icon` An icon that 128 x 128
 - `version` The version of the Extension
 - `entry` The main html file
 - `scripts` An array of script files (does not support nested folders)
