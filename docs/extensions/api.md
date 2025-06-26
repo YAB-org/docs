@@ -68,7 +68,7 @@ yab.menu.doc // the menu document to modify with js
 
 ## 5. Extension Info `yab.extension`
 Provides some info about the extension itself
-```
+```js
 yab.extension.checkForUpdates // checks for updates and gets the update. YAB should do this automatically though and this function will be deprecated soon
 yab.extension.reload // reloads extension
 yab.extension.id // the random id assigned to this extension by yab
