@@ -11,21 +11,29 @@ To include it simply add a script element to a json called `_yab_desktop.json`:
 
 ```json
 {
-  "name": "My Cool Website", // Name of the desktop shortcut,
-  "icon": https...png // appears when user launches app
+  "name": "My Cool Website",
+  "icon": "https...png",
   "rules": {
-    "externalUrls": "browser", // "browser" opens any urls the user clicks on in yab. true allows user to open new sites in the same window. false disables all external urls from working.
-    "allowDevTools": false, // disable or enable yab dev tools
-    },
+    "externalUrls": "browser",
+    "allowDevTools": false
+  },
   "window": {
-    "theme": "#0000" // the color of the window controls. Only works if user has setting "Use OS Native Window Controls" enabled in browser
-    "width": 800, // width in px
-    "height": 600, // height in px
-    "fullscreen": false // launch fullscreen?
+    "theme": "#0000",
+    "width": 800,
+    "height": 600,
+    "fullscreen": false
   } 
 }
 ```
-
+- `name` Name of the desktop shortcut
+- `icon` Icon that appears when user launches app
+- `rules` Opens any urls the user clicks on in yab. true allows user to open new sites in the same window. false disables all external urls from working.
+- `externalUrls` "browser" opens any urls the user clicks on in yab. true allows user to open new sites in the same window. false disables all external urls from working.
+- `allowDevTools` disable or enable yab dev tools
+- `theme` the color of the window controls. Only works if user has setting "Use OS Native Window Controls" enabled in browser
+- `width` width in px
+- `height` height in px
+- `fullscreen` launch fullscreen?
 Some additional lua api exists to check if the website is running in the desktop environment:
 ```lua
 if (browser._yab_.isPackaged) {
