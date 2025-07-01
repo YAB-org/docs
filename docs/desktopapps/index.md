@@ -34,11 +34,10 @@ To include it simply add a script element to a json called `_yab_desktop.json`:
 - `width` width in px
 - `height` height in px
 - `fullscreen` launch fullscreen?
+
 Some additional lua api exists to check if the website is running in the desktop environment:
 ```lua
-if (browser._yab_.isPackaged) {
-  
-}
+if (browser._yab_.isPackaged) {}
 ```
 To dynamically change the theme when possible, use:
 ```lua
