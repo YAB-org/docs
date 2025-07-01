@@ -41,5 +41,5 @@ if (browser._yab_.isPackaged) {}
 ```
 To dynamically change the theme when possible, use:
 ```lua
-browser._yab_.setTheme = #0000 
+browser._yab_.setTheme = "#0000" 
 ```
